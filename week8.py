@@ -45,11 +45,11 @@
 
 
 ### mission1 : 별 찍기
-star = 0                  # 별 갯수를 정해줄 변수 선언
-while True:               # 무한반복
-    star += 1             # while 문 수행시 1씩 증가
-    if star > 5: break    # star값이 5 이상이면 while문 종료
-    print('*' * star)     # star값 개수만큼 '*' 출력
+# star = 0                  # 별 갯수를 정해줄 변수 선언
+# while True:               # 무한반복
+#     star += 1             # while 문 수행시 1씩 증가
+#     if star > 5: break    # star값이 5 이상이면 while문 종료
+#     print('*' * star)     # star값 개수만큼 '*' 출력
 
 
 ### mission2 : 학교에 가면
