@@ -1,13 +1,6 @@
-
-# from tkinter import *       #import
-# win = Tk()                  #create object
-# win.geometry("500x500")     #window size
-# win.title("test")           #window title
-# win.mainloop()              #run window
-
-
 ### 파일 입출력
-## w : write / r : read / a : add
+
+### w : write / r : read / a : add
 # f = open("test.txt", 'w')
 # for i in range(1, 12):
 #     f.write(f"This is a line {i}\n")

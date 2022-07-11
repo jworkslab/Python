@@ -3,11 +3,11 @@
 ###################################### 
 
 #comment
-# print('3/17')
-# print("hello I'm Jonghoon.")
-# print("I am 19 years old")
-# print("I love to plat basketball")
-# print("아무것도 염려하지 말고")
+# print('7/13')
+# print("hello I'm Jake.")
+# print("I am 19 years old.")
+# print("I love to plat soccer.")
+# print("과천코딩에서 파이썬 배우자~!!")
 
 
 #자료형
