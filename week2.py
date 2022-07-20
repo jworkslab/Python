@@ -23,6 +23,7 @@ print(10//3)
 print(type(10%3))
 print(10%3)
 """
+
 print(type("hello world"))
 print("hello world")
 print(type("nice man"))
