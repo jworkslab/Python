@@ -98,34 +98,44 @@
 
 
 ### 메소드 오버라이딩
-# class Cal:
-#     def __init__(self, first, second):
-#         self.first = first
-#         self.second = second
-#     def add(self):
-#         result = self.first + self.second
-#         return result
-#     def mul(self):
-#         result = self.first * self.second
-#         return result
-#     def sub(self):
-#         result = self.first - self.second
-#         return result
-#     def div(self):
-#         if self.second == 0:  # 나누는 값이 0인 경우 0을 리턴하도록 수정
-#             return 0
-#         else:
-#             return self.first / self.second
+class Cal:
+    def __init__(self, first, second):
+        self.first = first
+        self.second = second
+    def add(self):
+        result = self.first + self.second
+        return result
+    def mul(self):
+        result = self.first * self.second
+        return result
+    def sub(self):
+        result = self.first - self.second
+        return result
+    def div(self):
+        result = self.first / self.second
+        return result
 
 
-# class SafeCal(Cal):
-#     def div(self):
-#         if self.second == 0:  # 나누는 값이 0인 경우 0을 리턴하도록 수정
-#             return 0
-#         else:
-#             return self.first / self.second
+class SafeCal(Cal):
+    def div(self):
+        if self.second == 0:  # 나누는 값이 0인 경우 0을 리턴하도록 수정
+            return 0
+        else:
+            return self.first / self.second
 
 # a = Cal(10, 0)  #객체 생성
+a = SafeCal(10, 0)
 
-# print(a.add())
-# print(a.div())
+print(a.add())
+print(a.div())
+
+# class Person:
+#     def greeting(self):
+#         print('안녕하세요.')
+ 
+# class Student(Person):
+#     def greeting(self):
+#         print('안녕하세요. 저는 파이썬 코딩 도장 학생입니다.')
+ 
+# james = Student()
+# james.greeting()
