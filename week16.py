@@ -6,11 +6,11 @@
 
 
 ### 파일 작성 ### write()
-f = open("test.txt", 'w')
-for i in range(1, 11):
-    data = f"{i}번째 줄입니다.\n"
-    f.write(data)
-f.close()
+# f = open("test.txt", 'w')
+# for i in range(1, 11):
+#     data = f"{i}번째 줄입니다.\n"
+#     f.write(data)
+# f.close()
 
 
 ### 파일 일기 ### 
@@ -33,7 +33,7 @@ f.close()
 # f.close()
 
 
-## readlines()
+# readlines()
 # f = open("test.txt", 'r')
 # line = f.readlines()
 # print(line)
@@ -49,7 +49,7 @@ f.close()
 
 ## way 2
 # for i in line:
-#     i = i.strip()
+#     i = i.strip()   #문자열 양쪽의 공백제거
 #     print(i)
 
  

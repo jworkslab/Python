@@ -1,11 +1,21 @@
-def add(a,b):
-    return a + b
+class Cal:
+    def __init__(self):
+        self.total = 0
+        # self.n1 = 0
+        # self.n2 = 0
 
-def sub(a,b):
-    return a - b
+    def add(self, a):
+        self.total += a
+        return print(self.total)
 
-def mul(a,b):
-    return a * b
+    def sub(self, a):
+        self.total -= a
+        return print(self.total)
 
-def div(a,b):
-    return a / b
+    def mul(self):
+        self.total *= a 
+        return print(self.total)
+    
+    def div(self):
+        self.total /= a
+        return print(self.total)

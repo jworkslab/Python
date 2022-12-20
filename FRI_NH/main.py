@@ -1,5 +1,5 @@
-from geometry import *
-from operation import *
+from calcpkg.geometry import *
+from calcpkg.operation import *
 
 num_list = [int(i) for i in input("숫자 입력: ").split()]
 cal1 = Geo(*num_list)
